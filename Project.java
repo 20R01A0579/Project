@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Project{
 public static void main(String[] args) throws InterruptedException {
 //TODO Auto-generated method stub 
-System.setProperty("webdriver.chrome.driver","C:\\Users\\Pavani\\Downloads\\chromedriver_win32\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","C:\\Users\\Mani\\Downloads\\chromedriver_win32\\chromedriver.exe");
 WebDriver ob=new ChromeDriver();
 ob.get("https://google.com");
 ob.manage().window().maximize();
